@@ -1,5 +1,5 @@
 import React from 'react'
-import { ExternalLink, Play, Headphones, Music, Radio } from 'lucide-react'
+import { ExternalLink, Headphones, Music, Radio } from 'lucide-react'
 
 const MusicLinksSection: React.FC = () => {
   console.log('MusicLinksSection component rendered')
@@ -94,7 +94,7 @@ const MusicLinksSection: React.FC = () => {
           ))}
         </div>
 
-      {/* Featured Sets */}
+    
 <div className="animate-fade-in-up">
   <h3 className="text-3xl font-bold text-center mb-12">
     <span className="text-haawke-purple">Featured Sets</span>
@@ -108,29 +108,29 @@ const MusicLinksSection: React.FC = () => {
       >
         <div id="wrapper">
           <section id="music">
-            <h1>DJ Live Sets</h1>
+            <h1>Live DJ Sets</h1>
             <iframe width="100%" height="60" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&autoplay=1&feed=%2Fcraigellenwood%2Ficarus-phoenix%2F"  allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
         <iframe 
         width="95%" 
-        height="60" 
+        height="65" 
         src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fcraigellenwood%2Fdj-kraig-electric-libras-dancing-on-a-sunbeam%2F" 
        
         ></iframe>
             <iframe
               width="95%"
-              height="60"
+              height="65"
               src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fcraigellenwood%2Fexperimental-knowledge-project%2F"
               frameBorder="0"
             ></iframe>
             <iframe
               width="95%"
-              height="60"
+              height="65"
               src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fcraigellenwood%2Fdj-kraig-burning-man-2019-metamorphosis-mix%2F"
               frameBorder="0"
             ></iframe>
             <iframe
               width="95%"
-              height="60"
+              height="65"
               src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fcraigellenwood%2Fdj-kraig-goa-anthems-studio-mix-feb2019-for-kells%2F"
               frameBorder="0"
             ></iframe>
