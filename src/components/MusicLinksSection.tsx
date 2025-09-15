@@ -41,20 +41,7 @@ const MusicLinksSection: React.FC = () => {
     },
   ]
 
-  const featuredSets = [
-    {
-      title: 'Burning Man 2024 Main Stage',
-      description: '3-hour sunrise set featuring AI-enhanced tracks',
-      duration: '3:14:27',
-      plays: '47.2K'
-    },
-    {
-      title: 'Haawke - Human After All - Wax Cylinder Recordings of Primitive Cultures Live Performance',
-      description: 'Full album with visual accompaniment',
-      duration: '1:29:48',
-      plays: '23.8K'
-    }
-  ]
+  
 
   return (
     <section className="section-padding bg-gradient-to-b from-dark-card to-dark-bg">
