@@ -1,5 +1,4 @@
-# Beautiful React Website Template
-
+# Haawke SE Asia Tour v
 A template repository containing comprehensive guidelines and prompts for building modern React/TypeScript web applications with Memex AI assistant.
 
 ## Features
@@ -44,4 +43,3 @@ This template is optimized for use with Memex AI assistant. The guidelines help 
 
 ---
 
-*Generated with [Memex](https://memex.tech)*
