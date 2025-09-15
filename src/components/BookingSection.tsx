@@ -34,6 +34,12 @@ const BookingSection: React.FC = () => {
       venue: 'Available for Booking',
       dateRange: 'Jan 1 - Jan 20, 2026',
       type: 'Cultural Centers, Modern Venues'
+    },
+     {
+      location: 'Tokyo, Japan',
+      venue: 'Available for Booking',
+      dateRange: 'Dec 1 - Jan 20, 2026',
+      type: 'Underground Clubs, Electronic Venues'
     }
   ]
 
@@ -41,7 +47,13 @@ const BookingSection: React.FC = () => {
     'Pioneer CDJ-3000 or equivalent',
     'DJM-A9 or DJM-V10 mixer preferred',
     'Full-range sound system (minimum 10kW)',
-    'Professional lighting rig',
+    'Professional lighting rig with hazrse/fog machine',
+    '4k projector and screen for visuals',
+    'Stable high-speed internet connection',
+    'Backline: 1 keyboard stand, 1 laptop stand',
+    'Hospitality: Bottled water, light snacks',
+    'Accommodation: 4-star hotel or better',
+    'Transportation: Airport transfers and local transport',
     'AI processing capability for live enhancements'
   ]
 

@@ -31,8 +31,6 @@ const LatestReleaseSection: React.FC = () => {
         }}>
                 <div className="text-center">
                   <Brain className="w-24 h-24 text-haawke-gold mx-auto mb-4 animate-pulse" />
-                  <h3 className="text-2xl font-bold text-white mb-2">LES BARONS</h3>
-                  <p className="text-haawke-cyan font-mono">Wax Cylinder Recordings of Primitive Cultures</p>
                   <div className="mt-4 flex justify-center space-x-4">
                     <Cpu className="w-6 h-6 text-haawke-purple animate-float" />
                     <Waves className="w-6 h-6 text-haawke-cyan animate-pulse" />
@@ -101,16 +99,14 @@ const LatestReleaseSection: React.FC = () => {
                   className="inline-flex items-center space-x-3 bg-gradient-to-r from-haawke-gold to-haawke-cyan text-black font-bold py-4 px-8 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 neon-glow"
                 >
                   <ExternalLink className="w-6 h-6" />
-                  <span>Experience Wax Cylinders</span>
+                  <span>Purchasenew release: Wax Cylinders</span>
                 </a>
               </div>
 
               {/* Quote */}
               <blockquote className="border-l-4 border-haawke-purple pl-6 py-4 bg-dark-bg/50 rounded-r-lg">
                 <p className="text-gray-300 text-lg italic mb-2">
-                  "This project represents the convergence of everything I've learned from Burning Man, 
-                  Psychic TV, and collaborating with visionaries like Leary and Wilson. The AI doesn't 
-                  replace creativity—it amplifies human intuition."
+                  "This project represents the convergence of everything I've learned from 30 years in electronic music. AI doesn't replace creativity—it amplifies human intuition."
                 </p>
                 <cite className="text-haawke-gold font-semibold">— Haawke</cite>
               </blockquote>

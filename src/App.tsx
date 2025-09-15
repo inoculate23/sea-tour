@@ -12,10 +12,11 @@ function App() {
   return (
     <div className="min-h-screen bg-dark-bg text-white">
       <HeroSection />
+       <BookingSection />
       <BiographySection />
       <LatestReleaseSection />
       <MusicLinksSection />
-      <BookingSection />
+     
       <ContactSection />
     </div>
   )

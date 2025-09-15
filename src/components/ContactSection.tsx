@@ -1,5 +1,5 @@
 import React from 'react'
-import { Mail, Phone, Globe, Instagram, Twitter, Facebook, MapPin, Clock } from 'lucide-react'
+import { Mail, Phone, Globe, Instagram, Twitter, MapPin, Clock } from 'lucide-react'
 
 const ContactSection: React.FC = () => {
   console.log('ContactSection component rendered')
@@ -15,8 +15,8 @@ const ContactSection: React.FC = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       label: 'Management',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567',
+      value: '+1 (360) 303-1251',
+      href: 'tel:+13603031251',
       description: 'Tour management and logistics'
     },
     {
@@ -39,20 +39,14 @@ const ContactSection: React.FC = () => {
     {
       name: 'Instagram',
       icon: <Instagram className="w-6 h-6" />,
-      url: 'https://instagram.com/haawkemusic',
-      handle: '@haawkemusic'
+      url: 'https://instagram.com/haawke_band',
+      handle: '@haawke_band'
     },
     {
       name: 'Twitter/X',
       icon: <Twitter className="w-6 h-6" />,
       url: 'https://twitter.com/haawkemusic',
       handle: '@haawkemusic'
-    },
-    {
-      name: 'Facebook',
-      icon: <Facebook className="w-6 h-6" />,
-      url: 'https://facebook.com/haawkemusic',
-      handle: 'Haawke Official'
     }
   ]
 
@@ -178,7 +172,7 @@ const ContactSection: React.FC = () => {
                   </div>
                   
                   <a 
-                    href="mailto:press@haawke.com"
+                    href="mailto:craig@haawke.com"
                     className="inline-flex items-center space-x-2 bg-haawke-purple/20 border border-haawke-purple text-haawke-purple font-semibold py-3 px-6 rounded-full hover:bg-haawke-purple hover:text-white transition-all duration-300"
                   >
                     <Mail className="w-4 h-4" />
@@ -196,7 +190,7 @@ const ContactSection: React.FC = () => {
             From the electronic music origins of Burning Man to the cutting edge of AI-enhanced sound
           </p>
           <div className="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-8 text-sm text-gray-500">
-            <span>© 2024 Haawke (Craig Ellenwood)</span>
+            <span>© 20254Haawke (Craig Ellenwood)</span>
             <span>•</span>
             <span>Powered by Google AI</span>
             <span>•</span>

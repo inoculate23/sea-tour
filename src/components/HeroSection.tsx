@@ -32,8 +32,8 @@ const HeroSection: React.FC = () => {
           </h1>
           
           <div className="text-xl md:text-5xl lg:text-3xl font-light mb-8 space-y-2">
-            <p className="bg-gradient-to-r from-haawke-gold to-haawke-cyan text-yeilow font-bold py-4 px-8 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 neon-glow">Craig Ellenwood</p>
-            <p className="text-gray-300">Electronic Music Pioneer</p>
+            <p className="bg-gradient-to-r from-haawke-gold to-haawke-cyan text-yeilow font-bold py-4 px-8 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 neon-glow">DJ Kraig (Craig Ellenwood)</p>
+            <p className="text-gray-300">American Electronic Music Pioneer</p>
           </div>
           
           <div className="mb-12">
@@ -42,11 +42,19 @@ const HeroSection: React.FC = () => {
                 SE ASIA PROMO TOUR
               </span>
             </h2>
-            <div className="text-lg md:text-xl text-gray-300 font-mono">
-              <p>THAILAND • VIETNAM</p>
-              <p className="text-haawke-gold">OCT 30, 2025 - JAN 20, 2026</p>
-            </div>
-          </div>
+         <div className="text-lg md:text-xl text-gray-300 font-mono">
+  <div className="flex justify-center items-center gap-8 mb-4">
+    <img src="assets/Flag_of_Thailand.svg" width="100" alt="Thailand flag" />
+    <img src="assets/Flag_of_Vietnam.svg" width="100" alt="Vietnam flag" />
+    <img src="assets/Flag_of_Japan.svg" width="100" alt="Japan flag" />
+  </div>
+  <div className="flex justify-center items-center gap-8 mb-2 font-bold">
+    <span>THAILAND</span>
+    <span>VIETNAM</span>
+    <span>JAPAN</span>
+  </div>
+  <p className="text-haawke-gold mt-2">OCT 30, 2025 - JAN 20, 2026</p>
+</div>
 
           {/* Key Credentials */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 text-sm md:text-base">
@@ -70,9 +78,9 @@ const HeroSection: React.FC = () => {
               href="https://music.haawke.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-gradient-to-r from-haawke-gold to-haawke-cyan text-yeilow font-bold py-4 px-8 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 neon-glow"
+              className="bg-gradient-to-r from-haawke-gold to-haawke-cyan text-yeilow font-bold py-4 px-8 rounded-full hover:shadow-sm hover:scale-105 transition-all duration-300"
             >
-              Latest Release: Les Barons Wax Cylinders
+             Purchase new release: Les Barons - Wax Cylinders
             </a>
             <button 
               onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
@@ -80,13 +88,16 @@ const HeroSection: React.FC = () => {
             >
               Book Shows
             </button>
+             
           </div>
+<iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fcraigellenwood%2Fhumans-after-all%2F" frameborder="0" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
         </div>
       </div>
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 animate-bounce">
         <ArrowDown className="w-8 h-8 text-haawke-gold" />
+      </div>
       </div>
     </section>
   )

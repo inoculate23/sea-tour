@@ -6,36 +6,38 @@ const MusicLinksSection: React.FC = () => {
 
   const platforms = [
     {
+     
       name: 'SoundCloud',
-      icon: <Radio className="w-8 h-8" />,
+      icon: <Radio className="w-30 h-8" />,
       description: 'Latest tracks and live sets',
-      url: 'https://soundcloud.com/haawke',
+      url: 'https://soundcloud.com/haawke-band',
       color: 'haawke-gold',
       bgGradient: 'from-haawke-gold/20 to-haawke-gold/5'
     },
     {
       name: 'Mixcloud',
-      icon: <Headphones className="w-8 h-8" />,
+      icon: <Headphones className="w-30 h-8" />,
       description: 'DJ mixes and radio shows',
-      url: 'https://mixcloud.com/haawke',
+      url: 'https://mixcloud.com/craigellenwood',
       color: 'haawke-purple',
       bgGradient: 'from-haawke-purple/20 to-haawke-purple/5'
     },
-    {
-      name: 'Spotify',
-      icon: <Play className="w-8 h-8" />,
-      description: 'Full discography streaming',
-      url: 'https://open.spotify.com/artist/haawke',
-      color: 'haawke-cyan',
-      bgGradient: 'from-haawke-cyan/20 to-haawke-cyan/5'
-    },
+   
     {
       name: 'Official Website',
-      icon: <Music className="w-8 h-8" />,
-      description: 'Les Barons Wax Cylinders & more',
+      icon: <Music className="w-30 h-8" />,
+      description: 'New Album and info',
       url: 'https://music.haawke.com',
       color: 'haawke-gold',
       bgGradient: 'from-haawke-gold/20 to-haawke-gold/5'
+    },
+     {
+      name: 'Psychic Tv',
+      icon: <Headphones className="w-30 h-8" />,
+      description: 'DJ mixes and radio shows',
+      url: 'https://open.spotify.com/artist/3oi0s3WIuxBU5oh87n7za2',
+      color: 'haawke-purple',
+      bgGradient: 'from-haawke-purple/20 to-haawke-purple/5'
     },
   ]
 
@@ -47,16 +49,10 @@ const MusicLinksSection: React.FC = () => {
       plays: '47.2K'
     },
     {
-      title: 'Les Barons Complete Experience',
+      title: 'Haawke - Human After All - Wax Cylinder Recordings of Primitive Cultures Live Performance',
       description: 'Full album with visual accompaniment',
-      duration: '1:23:45',
+      duration: '1:29:48',
       plays: '23.8K'
-    },
-    {
-      title: 'Psychic TV Tribute Mix',
-      description: 'Classic tracks reimagined with modern AI',
-      duration: '2:01:33',
-      plays: '31.5K'
     }
   ]
 
@@ -113,6 +109,13 @@ const MusicLinksSection: React.FC = () => {
         <div id="wrapper">
           <section id="music">
             <h1>DJ Live Sets</h1>
+            <iframe width="100%" height="60" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&autoplay=1&feed=%2Fcraigellenwood%2Ficarus-phoenix%2F"  allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
+        <iframe 
+        width="95%" 
+        height="60" 
+        src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fcraigellenwood%2Fdj-kraig-electric-libras-dancing-on-a-sunbeam%2F" 
+       
+        ></iframe>
             <iframe
               width="95%"
               height="60"
@@ -131,12 +134,7 @@ const MusicLinksSection: React.FC = () => {
               src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fcraigellenwood%2Fdj-kraig-goa-anthems-studio-mix-feb2019-for-kells%2F"
               frameBorder="0"
             ></iframe>
-            <iframe
-              width="95%"
-              height="60"
-              src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fcraigellenwood%2Fdj-kraig-mendocino-meltdown-1993-brad-and-elizabeths-farm-part-2-of-4%2F"
-              frameBorder="0"
-            ></iframe>
+
           </section>
 
         </div>
