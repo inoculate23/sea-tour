@@ -17,8 +17,9 @@ const HeroSection: React.FC = () => {
           backgroundPosition: 'center',
         }}
       />
-      </section>
+    
     </div>
+      </section>
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div 
