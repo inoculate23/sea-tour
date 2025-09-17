@@ -3,14 +3,28 @@ import { ArrowDown } from 'lucide-react'
 
 const HeroSection: React.FC = () => {
   console.log('HeroSection component rendered')
+
   
   return (
+    return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 z-0"
         style={{
           backgroundImage: `url('/images/hawk6.png'), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      />
+      </section>
+    </div>
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background Image with Overlay */}
+      <div 
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: `url('/images/'), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
