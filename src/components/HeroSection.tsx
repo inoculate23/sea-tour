@@ -14,7 +14,7 @@ const HeroSection: React.FC = () => {
      <div class="sketchfab-embed-wrapper"> 
    <iframe title="Thai Monkey Mask" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/cbdc5fe616f946e0950ad6f01cba5e53/embed?autostart=1&transparent=1&ui_theme=dark"> 
  </iframe> 
-    
+    </div>
       
       {/* Animated Background Particles */}
       <div className="absolute inset-0 z-10">
