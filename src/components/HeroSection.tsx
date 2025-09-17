@@ -31,7 +31,7 @@ const HeroSection: React.FC = () => {
           </h1>
           
           <div className="text-xl md:text-5xl lg:text-3xl font-light mb-8 space-y-2">
-            <p className="bg-gradient-to-r from-haawke-gold to-haawke-cyan text-yeilow font-bold py-4 px-8 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 neon-glow">DJ Kraig (Craig Ellenwood)</p>
+            <p className="bg-gradient-to-r from-haawke-gold to-haawke-cyan text-yellow font-bold py-4 px-8 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300">DJ Kraig (Craig Ellenwood)</p>
             <p className="text-gray-300">American Electronic Music Pioneer</p>
           </div>
           
