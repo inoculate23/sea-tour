@@ -24,7 +24,7 @@ const HeroSection: React.FC = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url('/images/'), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))`,
+          backgroundImage: `url('/images/IMG_0103.jpeg'), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
