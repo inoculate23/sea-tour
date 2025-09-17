@@ -16,7 +16,7 @@ const HeroSection: React.FC = () => {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
-        </div>
+        
     
     
       />
