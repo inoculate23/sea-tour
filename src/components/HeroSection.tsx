@@ -12,7 +12,7 @@ const HeroSection: React.FC = () => {
       {/* Background Image with Overlay */}
 
      <div className="sketchfab-embed-wrapper"> 
-   <iframe title="Thai Monkey Mask" frameBorder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/cbdc5fe616f946e0950ad6f01cba5e53/embed?autostart=1&transparent=1&ui_theme=dark"> 
+   <iframe title="Thai Monkey Mask" frameBorder="0" allowFullScreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/cbdc5fe616f946e0950ad6f01cba5e53/embed?autostart=1&transparent=1&ui_theme=dark"> 
  </iframe> 
     </div>
       
