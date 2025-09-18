@@ -180,7 +180,7 @@ const BookingSection: React.FC = () => {
             
             <div className="flex flex-col md:flex-row gap-6 justify-center">
               <a 
-                href="mailto:booking@haawke.com" 
+                href="mailto:craig@haawke.com" 
                 className="inline-flex items-center space-x-3 bg-gradient-to-r from-haawke-gold to-haawke-cyan text-black font-bold py-4 px-8 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 neon-glow"
               >
                 <Mail className="w-6 h-6" />
