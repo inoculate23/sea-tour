@@ -25,7 +25,7 @@ const LatestReleaseSection: React.FC = () => {
             <div className="aspect-square bg-gradient-to-br from-haawke-purple via-dark-bg to-haawke-cyan rounded-2xl p-8 glass-morphism hover-lift">
               <div className="h-full w-full bg-gradient-to-br from-haawke-gold/20 via-haawke-purple/20 to-haawke-cyan/20 rounded-xl flex items-center justify-center"
                 style={{
-          backgroundImage: `url('/assets/wax.png'), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))`,
+        backgroundImage: `url('/images/wax.png'), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}>
