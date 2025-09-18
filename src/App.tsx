@@ -1,4 +1,5 @@
 import HeroSection from './components/HeroSection'
+import IntroSection from './components/IntroSection'
 import BiographySection from './components/BiographySection'
 import LatestReleaseSection from './components/LatestReleaseSection'
 import MusicLinksSection from './components/MusicLinksSection'
@@ -10,6 +11,7 @@ function App() {
   
   return (
     <div className="min-h-screen bg-dark-bg text-white">
+      <IntroSection />
       <HeroSection />
        <BookingSection />
       <BiographySection />
