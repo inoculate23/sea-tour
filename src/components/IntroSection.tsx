@@ -6,7 +6,7 @@ const IntroSection: React.FC = () => {
 
   
   return (
- <section className="relative min-h-screen flex items-center justify-center overflow-visible bg-dark-bg">
+ <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-dark-bg">
 
 
   {/* Scroll Indicator */}
@@ -17,8 +17,8 @@ const IntroSection: React.FC = () => {
 
 
       {/* Main Content */}
-        <div className="mt-12 mb-12 h-[100vh] w-full">
-    <iframe src="https://cheery-starship-67c0f5.netlify.app" className="mt-12 mb-12 h-[100vh] w-full"></iframe>
+        <div className="mb-12 h-[100vh] w-full">
+    <iframe src="https://cheery-starship-67c0f5.netlify.app" className="mb-12 h-[100vh] w-full"></iframe>
 
      
 
