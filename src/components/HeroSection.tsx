@@ -97,8 +97,7 @@ const HeroSection: React.FC = () => {
             </button>
              
           </div>
-<iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fcraigellenwood%2Fhumans-after-all%2F" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
-        </div>
+  </div>
       </div>
 
       {/* Scroll Indicator */}
