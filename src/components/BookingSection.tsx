@@ -184,7 +184,7 @@ const BookingSection: React.FC = () => {
                 className="inline-flex items-center space-x-3 bg-gradient-to-r from-haawke-gold to-haawke-cyan text-black font-bold py-4 px-8 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 neon-glow"
               >
                 <Mail className="w-6 h-6" />
-                <span>booking@haawke.com</span>
+                <span>craig@haawke.com</span>
               </a>
               
               <a 
