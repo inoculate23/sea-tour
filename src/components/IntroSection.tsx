@@ -18,7 +18,7 @@ const IntroSection: React.FC = () => {
 
       {/* Main Content */}
         <div className="mt-12 mb-12 h-[100vh] w-full">
-    <iframe src="https://cheery-starship-67c0f5.netlify.app" width="1200" height="720"></iframe>
+    <iframe src="https://cheery-starship-67c0f5.netlify.app" className="mt-12 mb-12 h-[100vh] w-full"></iframe>
 
      
 
