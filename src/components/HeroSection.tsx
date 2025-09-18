@@ -15,6 +15,14 @@ const HeroSection: React.FC = () => {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
+
+        <iframe src="https://cheery-starship-67c0f5.netlify.app" width="100%" height="100vh"></iframe>
+      
+            {/* Scroll Indicator */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 animate-bounce">
+        <ArrowDown className="w-8 h-8 text-haawke-gold" />
+      </div>
+      </div>
       />
       
       {/* Animated Background Particles */}
