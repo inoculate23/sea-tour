@@ -10,7 +10,7 @@ const IntroSection: React.FC = () => {
 
       {/* Main Content */}
         <div className="h-[100vh] w-full">
-    <iframe src="https://cheery-starship-67c0f5.netlify.app" autoPlay className="mb-12 h-[100vh] w-full"></iframe>
+    <iframe src="https://cheery-starship-67c0f5.netlify.app" className="mb-12 h-[100vh] w-full"></iframe>
 
      
 
