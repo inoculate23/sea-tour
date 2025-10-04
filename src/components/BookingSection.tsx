@@ -68,9 +68,9 @@ const BookingSection: React.FC = () => {
            
          <div className="text-lg md:text-xl text-gray-300 font-mono">
   <div className="flex justify-center items-center gap-8 mb-4">
-    <img src="assets/Flag_of_Thailand.svg" width="100" alt="Thailand flag" />
-    <img src="assets/Flag_of_Vietnam.svg" width="100" alt="Vietnam flag" />
-    <img src="assets/Flag_of_Japan.svg" width="100" alt="Japan flag" />
+    <img src="images/Flag_of_Thailand.svg" width="100" alt="Thailand flag" />
+    <img src="images/Flag_of_Vietnam.svg" width="100" alt="Vietnam flag" />
+    <img src="images/Flag_of_Japan.svg" width="100" alt="Japan flag" />
   </div>
 
 
