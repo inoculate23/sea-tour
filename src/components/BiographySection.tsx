@@ -14,14 +14,34 @@ const BiographySection: React.FC = () => {
   ]
 
   return (
-    <section className="section-padding bg-gradient-to-b from-dark-bg to-dark-card">
+    <section id="biography" className="section-padding bg-gradient-to-b from-dark-bg to-dark-card">
       <div className="container-custom">
+        {/* Top tagline: keep same style, one line */}
+        <div className="text-center mb-4 overflow-x-auto">
+          <h2 className="whitespace-nowrap text-4xl md:text-6xl font-bold">
+            <span className="gradient-text">An Electronic Music Pioneer</span>
+          </h2>
+        </div>
+        {/* Key Credentials moved from Hero (one-line row) */}
+        <div className="flex items-stretch justify-center gap-6 pb-8 overflow-x-auto whitespace-nowrap">
+          <div className="glass-morphism rounded-lg p-4 hover-lift flex-shrink-0 min-w-[240px]">
+            <p className="text-haawke-gold font-semibold mb-1">BURNING MAN</p>
+            <p className="text-gray-300">Co-Founder, Established Sound Camps, 1st DJ</p>
+          </div>
+          <div className="glass-morphism rounded-lg p-4 hover-lift flex-shrink-0 min-w-[240px]">
+            <p className="text-haawke-purple font-semibold mb-1">PSYCHIC TV</p>
+            <p className="text-gray-300">Former Band Member</p>
+          </div>
+          <div className="glass-morphism rounded-lg p-4 hover-lift flex-shrink-0 min-w-[240px]">
+            <p className="text-haawke-cyan font-semibold mb-1">GOOGLE AI</p>
+            <p className="text-gray-300">Supercomputer Grant</p>
+          </div>
+        </div>
+        
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Biography Text */}
           <div className="animate-fade-in-up">
-            <h2 className="text-4xl md:text-6xl font-bold mb-8">
-              <span className="gradient-text">An Electronic Music Pioneer</span>
-            </h2>
+            
             
             <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
               <p>

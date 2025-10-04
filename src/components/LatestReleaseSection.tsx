@@ -5,7 +5,7 @@ const LatestReleaseSection: React.FC = () => {
   console.log('LatestReleaseSection component rendered')
 
   return (
-    <section className="section-padding bg-dark-card">
+    <section id="latest-release" className="section-padding bg-dark-card">
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-7xl font-bold mb-6">
@@ -25,7 +25,7 @@ const LatestReleaseSection: React.FC = () => {
             <div className="aspect-square bg-gradient-to-br from-haawke-purple via-dark-bg to-haawke-cyan rounded-2xl p-8 glass-morphism hover-lift">
               <div className="h-full w-full bg-gradient-to-br from-haawke-gold/20 via-haawke-purple/20 to-haawke-cyan/20 rounded-xl flex items-center justify-center"
                 style={{
-        backgroundImage: `url('/images/wax.png'), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))`,
+          backgroundImage: `url('./assets/wax.png'), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}>
@@ -96,10 +96,10 @@ const LatestReleaseSection: React.FC = () => {
                   href="https://music.haawke.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-flex items-center space-x-3 bg-gradient-to-r from-haawke-gold to-haawke-cyan text-black font-bold py-4 px-8 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 neon-glow"
+                  className="inline-flex items-center space-x-3 bg-gradient-to-r from-haawke-gold to-haawke-cyan font-bold py-4 px-8 rounded-full hover:shadow-lg hover:scale-105 font-bold text-whitetransition-all duration-300"
                 >
-                  <ExternalLink className="w-6 h-6" />
-                  <span>Purchasenew release: Wax Cylinders</span>
+                  <ExternalLink className="w-6 h-6 font-bold text-white" />
+                  <span>Purchase new release: Wax Cylinders</span>
                 </a>
               </div>
 

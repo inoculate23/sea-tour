@@ -8,37 +8,37 @@ const BookingSection: React.FC = () => {
     {
       location: 'Bangkok, Thailand',
       venue: 'Available for Booking',
-      dateRange: 'Oct 30 - Nov 15, 2025',
-      type: 'Club Shows, Festivals, Private Events'
+      dateRange: 'Oct 30 2025 - Jan 22, 2026',
+      type: 'Nightclubs, Festivals, Private Events'
     },
     {
       location: 'Chiang Mai, Thailand', 
       venue: 'Available for Booking',
-      dateRange: 'Nov 16 - Nov 30, 2025',
-      type: 'Intimate Venues, Art Galleries'
+      dateRange: 'Oct 30 2025 - Jan 22, 2026',
+      type: 'Club Shows, Intimate Venues, Art Galleries'
     },
     {
       location: 'Phuket, Thailand',
       venue: 'Available for Booking', 
-      dateRange: 'Dec 1 - Dec 15, 2025',
+      dateRange: 'Oct 30 2025 - Jan 22, 2026',
       type: 'Beach Clubs, Resort Shows'
     },
     {
       location: 'Ho Chi Minh City, Vietnam',
       venue: 'Available for Booking',
-      dateRange: 'Dec 16 - Dec 31, 2025', 
+      dateRange: 'Oct 30 2025 - Jan 22, 2026',
       type: 'Underground Clubs, Electronic Venues'
     },
     {
       location: 'Hanoi, Vietnam',
       venue: 'Available for Booking',
-      dateRange: 'Jan 1 - Jan 20, 2026',
+      dateRange: 'Oct 30 2025 - Jan 22, 2026',
       type: 'Cultural Centers, Modern Venues'
     },
      {
       location: 'Tokyo, Japan',
       venue: 'Available for Booking',
-      dateRange: 'Dec 1 - Jan 20, 2026',
+      dateRange: 'Oct 30 2025 - Jan 22, 2026',
       type: 'Underground Clubs, Electronic Venues'
     }
   ]
@@ -47,7 +47,7 @@ const BookingSection: React.FC = () => {
     'Pioneer CDJ-3000 or equivalent',
     'DJM-A9 or DJM-V10 mixer preferred',
     'Full-range sound system (minimum 10kW)',
-    'Professional lighting rig with hazrse/fog machine',
+    'Professional lighting rig with hazer/fog machine',
     '4k projector and screen for visuals',
     'Stable high-speed internet connection',
     'Backline: 1 keyboard stand, 1 laptop stand',
@@ -61,11 +61,31 @@ const BookingSection: React.FC = () => {
     <section id="booking" className="section-padding bg-dark-bg">
       <div className="container-custom">
         <div className="text-center mb-16">
+               <div className="relative z-20 text-center container-custom px-8">
+        <div className="animate-fade-in-up">
+          
+          <div className="mb-12">
+           
+         <div className="text-lg md:text-xl text-gray-300 font-mono">
+  <div className="flex justify-center items-center gap-8 mb-4">
+    <img src="assets/Flag_of_Thailand.svg" width="100" alt="Thailand flag" />
+    <img src="assets/Flag_of_Vietnam.svg" width="100" alt="Vietnam flag" />
+    <img src="assets/Flag_of_Japan.svg" width="100" alt="Japan flag" />
+  </div>
+
+
+                  </div>
+      </div> 
+        
+        
+
+        </div>
+      </div>
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
             <span className="gradient-text">Book Haawke</span>
           </h2>
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-4">
-            SE Asia Promo Tour 2025/2026
+            SE Asia Tour 2025/2026
           </p>
           <p className="text-haawke-gold font-mono text-lg">
             Available for clubs, festivals, private events, and cultural venues
@@ -179,13 +199,7 @@ const BookingSection: React.FC = () => {
             </p>
             
             <div className="flex flex-col md:flex-row gap-6 justify-center">
-              <a 
-                href="mailto:booking@haawke.com" 
-                className="inline-flex items-center space-x-3 bg-gradient-to-r from-haawke-gold to-haawke-cyan text-black font-bold py-4 px-8 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 neon-glow"
-              >
-                <Mail className="w-6 h-6" />
-                <span>booking@haawke.com</span>
-              </a>
+           
               
               <a 
                 href="#contact" 

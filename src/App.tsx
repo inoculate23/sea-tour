@@ -1,5 +1,6 @@
 import HeroSection from './components/HeroSection'
-import IntroSection from './components/IntroSection'
+import HeaderImage from './components/HeaderImage'
+import NavBar from './components/NavBar'
 import BiographySection from './components/BiographySection'
 import LatestReleaseSection from './components/LatestReleaseSection'
 import MusicLinksSection from './components/MusicLinksSection'
@@ -10,11 +11,12 @@ function App() {
   console.log('App component rendered')
   
   return (
-    <div className="min-h-screen bg-dark-bg text-white">
-      <IntroSection />
+    <div className="min-h-screen bg-dark-bg text-white pt-16">
+      <NavBar />
+      <HeaderImage />
+      <BiographySection />
       <HeroSection />
        <BookingSection />
-      <BiographySection />
       <LatestReleaseSection />
       <MusicLinksSection />
      
