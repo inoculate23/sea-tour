@@ -23,7 +23,7 @@ const HeaderImage: React.FC = () => {
           American Electronic Music Pioneer
         </p>
         <h1 className="text-6xl md:text-8xl font-black mt-1">
-          <span className="gradient-text neon-glow drop-shadow-max">HAAWKE</span>
+          <span className="gradient-text drop-shadow-max">HAAWKE</span>
         </h1>
         {/* One-line Asian Tour with dates below HAAWKE */}
         <p className="mt-2 text-base md:text-2xl text-white drop-shadow-max fade-in-2 tracking-wide">

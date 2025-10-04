@@ -81,14 +81,7 @@ body {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
-/* Neon glow effect */
-.neon-glow {
-  text-shadow: 
-    0 0 5px currentColor,
-    0 0 10px currentColor,
-    0 0 20px currentColor,
-    0 0 40px currentColor;
-}
+/* Neon glow effect removed to avoid Netlify 'neon' build issues */
 
 /* Image overlay effects */
 .image-overlay {
