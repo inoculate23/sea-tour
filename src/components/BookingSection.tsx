@@ -1,5 +1,5 @@
 import React from 'react'
-import { Calendar, MapPin, Clock, Mail, Phone, Globe, Zap, Music } from 'lucide-react'
+import { Calendar, MapPin, Clock, Phone, Globe, Zap, Music } from 'lucide-react'
 
 const BookingSection: React.FC = () => {
   console.log('BookingSection component rendered')
