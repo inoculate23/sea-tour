@@ -44,7 +44,7 @@ const MusicLinksSection: React.FC = () => {
   
 
   return (
-    <section className="section-padding bg-gradient-to-b from-dark-card to-dark-bg">
+    <section id="music" className="section-padding bg-gradient-to-b from-dark-card to-dark-bg">
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
@@ -96,7 +96,15 @@ const MusicLinksSection: React.FC = () => {
         <div id="wrapper">
           <section id="music">
             <h1>Live DJ Sets</h1>
-            <iframe width="100%" height="60" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&autoplay=1&feed=%2Fcraigellenwood%2Ficarus-phoenix%2F"  allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
+            {/* Moved from Hero: place this first */}
+           <iframe width="95%" height="65" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&autoplay=1&feed=%2Fcraigellenwood%2Fblessings-for-the-suffering%2F" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
+            <iframe width="95%" height="65" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fcraigellenwood%2Fhumans-after-all%2F" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
+           <iframe
+              width="95%"
+              height="65"
+              src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fcraigellenwood%2Fdj-kraig-goa-anthems-studio-mix-feb2019-for-kells%2F"
+              frameBorder="0"
+            ></iframe>
         <iframe 
         width="95%" 
         height="65" 
@@ -115,12 +123,7 @@ const MusicLinksSection: React.FC = () => {
               src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fcraigellenwood%2Fdj-kraig-burning-man-2019-metamorphosis-mix%2F"
               frameBorder="0"
             ></iframe>
-            <iframe
-              width="95%"
-              height="65"
-              src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fcraigellenwood%2Fdj-kraig-goa-anthems-studio-mix-feb2019-for-kells%2F"
-              frameBorder="0"
-            ></iframe>
+           
 
           </section>
 

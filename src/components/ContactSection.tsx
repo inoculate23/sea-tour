@@ -1,5 +1,5 @@
 import React from 'react'
-import { Mail, Phone, Globe, Instagram, Twitter, MapPin, Clock } from 'lucide-react'
+import { Mail, Phone, Globe, Instagram, Twitter, Clock } from 'lucide-react'
 
 const ContactSection: React.FC = () => {
   console.log('ContactSection component rendered')
@@ -8,8 +8,8 @@ const ContactSection: React.FC = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: 'Booking Email',
-      value: 'booking@haawke.com',
-      href: 'mailto:booking@haawke.com',
+      value: 'craig@haawke.com',
+      href: 'mailto:craig@haawke.com',
       description: 'For show bookings and event inquiries'
     },
     {
@@ -25,13 +25,6 @@ const ContactSection: React.FC = () => {
       value: 'music.haawke.com',
       href: 'https://music.haawke.com',
       description: 'Latest releases and updates'
-    },
-    {
-      icon: <MapPin className="w-6 h-6" />,
-      label: 'Based In',
-      value: 'San Francisco, CA',
-      href: null,
-      description: 'Home to Burning Man origins'
     }
   ]
 
@@ -119,7 +112,7 @@ const ContactSection: React.FC = () => {
               </div>
               <div className="text-gray-300">
                 <p className="font-semibold text-haawke-gold mb-2">October 30, 2025 - January 20, 2026</p>
-                <p className="text-sm">Available for bookings across Thailand and Vietnam</p>
+                <p className="text-sm">Available for bookings across Southeast Asia</p>
               </div>
             </div>
           </div>
@@ -190,7 +183,7 @@ const ContactSection: React.FC = () => {
             From the electronic music origins of Burning Man to the cutting edge of AI-enhanced sound
           </p>
           <div className="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-8 text-sm text-gray-500">
-            <span>© 20254Haawke (Craig Ellenwood)</span>
+            <span>© 2025 Haawke / Inoculate Media</span>
             <span>•</span>
             <span>Powered by Google AI</span>
             <span>•</span>
