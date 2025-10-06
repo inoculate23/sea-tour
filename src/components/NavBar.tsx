@@ -1,26 +1,61 @@
+import React from 'react'
 
-(TraeAI-4) ~/tour/sea-tour [0] $ npm run dev
+const links = [
+  { id: 'hero', label: 'Home' },
+  { id: 'booking', label: 'Asia Tour/Booking' },
+  { id: 'biography', label: 'Biography' },
+  { id: 'latest-release', label: 'Release' },
+  { id: 'music', label: 'Music' },
+  { id: 'contact', label: 'Contact' }
+]
 
-> haawke_se_asia_promo_tour@1.0.0 dev
-> vite
+const NavBar: React.FC = () => {
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    e.preventDefault()
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+  }
 
+  return (
+    <nav className="fixed top-0 left-0 right-0 z-50 border-b border-gray-700 overflow-hidden h-[60px]">
+      {/* Background iframe */}
+      <div className="absolute inset-0">
+        <iframe
+          src="https://gleeful-youtiao-a8b20c.netlify.app/"
+          title="Nav Background"
+          className="absolute inset-0 w-full h-full pointer-events-none"
+          loading="lazy"
+          referrerPolicy="no-referrer"
+          allow="fullscreen; autoplay; encrypted-media; pointer-lock"
+        />
+        {/* Overlay tint for readability */}
+        <div className="absolute inset-0 bg-black/20 pointer-events-none" />
+      </div>
 
-  VITE v4.5.14  ready in 190 ms
+      <div className="relative z-10 container-custom flex items-center justify-between h-[60px]">
+        <a href="#hero" onClick={(e) => handleClick(e, 'hero')} className="flex items-center">
+          <div className="w-10 h-10 rounded-full overflow-hidden ring-1 ring-haawke-gold/50">
+            <img
+              src="/images/haawke1-bk.jpg.jpg"
+              alt="Haawke logo"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </a>
+        <div className="hidden md:flex space-x-6">
+          {links.map((l) => (
+            <a
+              key={l.id}
+              href={`#${l.id}`}
+              onClick={(e) => handleClick(e, l.id)}
+              className="text-gray-300 hover:text-haawke-gold transition-colors duration-200"
+            >
+              {l.label}
+            </a>
+          ))}
+        </div>
+      </div>
+    </nav>
+  )
+}
 
-  ➜  Local:   http://localhost:5173/
-  ➜  Network: use --host to expose
-  ➜  press h to show help
-[vite:css] @import must precede all other statements (besides @charset or empty @layer)
-3  |  @tailwind utilities;
-4  |  
-5  |  @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-   |   ^
-6  |  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@300;400;500;600;700&display=swap');
-7  |  
-[vite:css] @import must precede all other statements (besides @charset or empty @layer)
-4  |  
-5  |  @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-6  |  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@300;400;500;600;700&display=swap');
-   |   ^
-7  |  
-8  |  html {
+export default NavBar
